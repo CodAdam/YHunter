@@ -9,7 +9,7 @@
     "pages/consigner/index",
     "pages/admin/index",
     "pages/taskboard/index",
-    "pages/search/index",
+    "pages/searcher/index",
     "pages/user/index",
     "pages/more/index",
     "pages/logs/logs"
@@ -32,13 +32,13 @@
       },
       {
         "pagePath": "pages/search/index",
-        "text": "查找任务",
+        "text": "查找",
         "iconPath": "images/tab/dianying.png",
         "selectedIconPath": "images/tab/dianying_hl.png"
       },
       {
         "pagePath": "pages/taskboard/index",
-        "text": "我的任务",
+        "text": "任务簿",
         "iconPath": "images/tab/dianying.png",
         "selectedIconPath": "images/tab/dianying_hl.png"
       },
