@@ -1,0 +1,15 @@
+<!--pages/consigner/index.wxml-->
+<view>
+    <view>
+        <image class="consigner" src="../../images/green.jpg"></image>  
+        <text>发起委托</text>
+    </view>
+    <view>
+        <image class="consigner" src="../../images/green.jpg"></image>  
+        <text>我的委托</text>
+    </view>
+    <view>
+        <image class="consigner" src="../../images/green.jpg"></image>  
+        <text>more</text>
+    </view>
+</view>

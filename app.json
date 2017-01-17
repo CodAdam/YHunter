@@ -1,0 +1,21 @@
+{
+  "pages":[
+    "pages/index/welcome",
+    "pages/index/index",
+    "pages/hunter/index",
+    "pages/hunter/gohunt/index",
+    "pages/hunter/askreward/index",
+    "pages/hunter/mytask/index",
+    "pages/consigner/index",
+    "pages/admin/index",
+    "pages/taskboard/index",
+    "pages/more/index",
+    "pages/logs/logs"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle":"black"
+  }
+}

@@ -1,0 +1,15 @@
+<!--pages/hunter/index.wxml-->
+<view>
+    <view class="func-container" bindtap="bindAskRewardViewTap">
+        <image class="hunter" src="../../images/green.jpg"></image>  
+        <text>我要领赏</text>
+    </view>
+    <view class="func-container" bindtap="bindGoHuntViewTap">
+        <image class="hunter" src="../../images/green.jpg"></image>  
+        <text>开始狩猎</text>
+    </view>
+    <view class="func-container" bindtap="bindMyTaskViewTap">
+        <image class="hunter" src="../../images/green.jpg"></image>  
+        <text>我的委托</text>
+    </view>
+</view>

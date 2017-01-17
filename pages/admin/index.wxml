@@ -1,0 +1,7 @@
+<!--pages/admin/index.wxml-->
+<view>
+    <view>
+        <image class="consigner" src="../../images/green.jpg"></image>  
+        <text>任务管理</text>
+    </view>
+</view>
