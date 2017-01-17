@@ -15,7 +15,7 @@ Page({
       })
   },
   bindhunterViewTap: function() {
-    wx.navigateTo({
+    wx.switchTab({
       url: '../hunter/index'
     })
   },

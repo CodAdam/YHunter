@@ -3,12 +3,12 @@
 var app = getApp()
 Page({
   data: {
-    motto: 'Hello World',
+    motto: 'Welcome come to YHunter!',
     userInfo: {}
   },
   //事件处理函数
   bindViewTap: function() {
-    wx.navigateTo({
+    wx.switchTab({
       url: 'index'
     })
   },

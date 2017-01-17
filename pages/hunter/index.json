@@ -1,1 +1,8 @@
-{}
+{
+    "window":{
+    "backgroundTextStyle":"red",
+    "navigationBarBackgroundColor": "#000",
+    "navigationBarTitleText": "猎人",
+    "navigationBarTextStyle":"#fff"
+  }
+}

@@ -9,13 +9,45 @@
     "pages/consigner/index",
     "pages/admin/index",
     "pages/taskboard/index",
+    "pages/search/index",
+    "pages/user/index",
     "pages/more/index",
     "pages/logs/logs"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "WeChat",
+    "navigationBarTitleText": "YHunter",
     "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "borderStyle": "white",
+    "position":"bottom",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "主页",
+        "iconPath": "images/tab/yuedu.png",
+        "selectedIconPath": "images/tab/yuedu_hl.png"
+      },
+      {
+        "pagePath": "pages/search/index",
+        "text": "查找任务",
+        "iconPath": "images/tab/dianying.png",
+        "selectedIconPath": "images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/taskboard/index",
+        "text": "我的任务",
+        "iconPath": "images/tab/dianying.png",
+        "selectedIconPath": "images/tab/dianying_hl.png"
+      },
+      {
+        "pagePath": "pages/user/index",
+        "text": "我",
+        "iconPath": "images/tab/dianying.png",
+        "selectedIconPath": "images/tab/dianying_hl.png"
+      }
+    ]
   }
 }
