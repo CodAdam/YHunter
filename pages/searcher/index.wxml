@@ -1,7 +1,18 @@
 <!--pages/searcher/index.wxml-->
 <view class="container">
+  <!--search-->
+  <!--<view class="search flex">
+    <view class="search-left">
+      <image src="../../images/search.png"></image>
+      <input placeholder="网易云课堂" placeholder-class="search-placeholder"/>
+    </view>
+    <view class="search-right flex-item" bindtap="upper">
+      <image src="../../images/email.png"></image>
+    </view>
+  </view>-->
   <view class="searchInfo" bindtap="searchInfo">
-    <input bindinput="matchInput" class="searchMessage tl" value="{{inputVal}}" placeholder="◎ 搜索" focus="{{focus}}" />
+    <image src="../../images/search.png"></image>
+    <input bindinput="matchInput" class="searchMessage tl" value="{{inputVal}}" focus="{{focus}}" />
   </view>
   <view class="changePageMask w100">
     <view class="friendsList fl w100">
@@ -12,7 +23,7 @@
           </view>
           <block wx:for="{{list.items}}" wx:for-item="item" wx:for-index="idx" wx:key='name'>
             <view class="userInfo w100 flex-row" data-name="{{item}}" bindtap="friendInfo" bindtouchend="moveEnd" bindtouchstart="moveStart" animation="{{tempName == item ? deleteAnimation : ''}}">
-              <image class="userImage" mode="scaleToFill" src="{{ item.imgUrl || '/image/no-people.png'}}"></image>
+              <!--<image class="userImage" mode="scaleToFill" src="{{ item.imgUrl || '/image/no-people.png'}}"></image>-->
               <text class="userName"> {{item}} </text>
               <view class="deleteFriend bg colorWhite tc" catchtap="removeFriend" data-idxall="{{idxall}}" data-idx="{{idx}}"> 删 除 </view>
             </view>

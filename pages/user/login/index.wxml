@@ -1,0 +1,23 @@
+<!--pages/user/login/index.wxml-->
+<view class="wrap">
+    <view class="logo"> 
+        <text>logo here</text>
+    	<!--<image class="img" src="http://www.m.m.huarn.com/image/bikelogo.png"></image> --> 
+    <view>
+     	<!--标题-->
+     	<text class="title">请选择公会</text>
+    </view>
+    </view> 
+	<!--登录框区--> 
+    <view class="user "> 
+    	<input type="text" value="" placeholder="公会账号"   class="login-email"/>
+    </view>
+    <view class="psd "> 
+    	<input type="password" value="" placeholder="密码"   class="login-email"/>
+    </view>   
+    <button bindtap="goDetail2" class="sub2"> 开始狩猎 </button> 
+    <!--用户协议-->
+    <view class="fot_login">
+    	<text class="fot_desc">[登录即表示同意]</text>
+    </view>
+</view>

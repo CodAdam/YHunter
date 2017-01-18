@@ -11,6 +11,8 @@
     "pages/taskboard/index",
     "pages/searcher/index",
     "pages/user/index",
+    "pages/user/login/index",
+    "pages/user/acount/index",
     "pages/more/index",
     "pages/logs/logs"
   ],
@@ -27,26 +29,26 @@
       {
         "pagePath": "pages/index/index",
         "text": "主页",
-        "iconPath": "images/tab/yuedu.png",
-        "selectedIconPath": "images/tab/yuedu_hl.png"
+        "iconPath": "images/tab/tab_index1.png",
+        "selectedIconPath": "images/tab/tab_index2.png"
       },
       {
-        "pagePath": "pages/search/index",
-        "text": "查找",
-        "iconPath": "images/tab/dianying.png",
-        "selectedIconPath": "images/tab/dianying_hl.png"
+        "pagePath": "pages/searcher/index",
+        "text": "发现",
+        "iconPath": "images/tab/tab_discover1.png",
+        "selectedIconPath": "images/tab/tab_discover2.png"
       },
       {
         "pagePath": "pages/taskboard/index",
         "text": "任务簿",
-        "iconPath": "images/tab/dianying.png",
-        "selectedIconPath": "images/tab/dianying_hl.png"
+        "iconPath": "images/tab/tab_taskbook1.png",
+        "selectedIconPath": "images/tab/tab_taskbook2.png"
       },
       {
-        "pagePath": "pages/user/index",
+        "pagePath": "pages/user/login/index",
         "text": "我",
-        "iconPath": "images/tab/dianying.png",
-        "selectedIconPath": "images/tab/dianying_hl.png"
+        "iconPath": "images/tab/tab_account1.png",
+        "selectedIconPath": "images/tab/tab_account2.png"
       }
     ]
   }

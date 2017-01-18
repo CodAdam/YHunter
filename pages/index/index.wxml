@@ -15,30 +15,29 @@
         </block>
     </view>
     </view>
-    <view  class="role-container">
-        <image  bindtap="bindhunterViewTap" class="hunter" src="../../images/green.jpg"></image>
+    <view  bindtap="bindViewTap" class="role-container">
+        <image  class="hunter" data-url="../hunter/index" src="../../images/green.jpg"></image>
         <text>I'm hunter!</text>
     </view>
-    <view bindtap="bindconsignerViewTap" class="role-container">
-        <image class="consigner" src="../../images/green.jpg"></image>  
+    <view bindtap="bindViewTap" class="role-container">
+        <image class="consigner" data-url="../consigner/index"  src="../../images/green.jpg"></image>  
         <text>I'm consigner</text>
     </view>
-    <view bindtap="bindadminViewTap" class="role-container">
-        <image class="admin" src="../../images/green.jpg"></image>
+    <view bindtap="bindViewTap" class="role-container">
+        <image class="admin"  data-url="../admin/index" src="../../images/green.jpg"></image>
         <text>I'm admin</text>
     </view>
-    <view bindtap="bindtaskboardViewTap" class="role-container">
-        <image class="taskboard" src="../../images/green.jpg"></image>
+    <view bindtap="bindViewTap" class="role-container">
+        <image class="taskboard" data-url="../taskboard/index" src="../../images/green.jpg"></image>
         <text>Taskboard</text>
     </view>
-    <view bindtap="bindmoreViewTap" class="role-container">
-        <image class="more" src="../../images/green.jpg"></image>
+    <view bindtap="bindViewTap" class="role-container">
+        <image  class="more" data-url="../more/index" src="../../images/green.jpg"></image>
         <text>More ...</text>
-    </view>
-    
-    <view class="liItem" wx:for="{{lists}}">
+    </view>   
+    <view catchtap="bindListViewTap" class="liItem"  wx:for="{{lists}}">
         <view class="liImgs">
-            <image src="http://phptest.guoxinad.com.cn/insun_mediawap/{{item.mainimg}}" class="liImg" />
+            <image data-hi="{{item.redirecturl}}" src="http://phptest.guoxinad.com.cn/insun_mediawap/{{item.mainimg}}" class="liImg" />
         </view>
         <view class="liDiv">
             <text class="liTit">{{item.title}}</text>
