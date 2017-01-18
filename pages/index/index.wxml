@@ -35,4 +35,14 @@
         <image class="more" src="../../images/green.jpg"></image>
         <text>More ...</text>
     </view>
+    
+    <view class="liItem" wx:for="{{lists}}">
+        <view class="liImgs">
+            <image src="http://phptest.guoxinad.com.cn/insun_mediawap/{{item.mainimg}}" class="liImg" />
+        </view>
+        <view class="liDiv">
+            <text class="liTit">{{item.title}}</text>
+            <text class="liCnt">{{item.content}}</text>
+        </view>
+    </view>
 </view>
