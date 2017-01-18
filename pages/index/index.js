@@ -5,7 +5,6 @@ Page({
     {picUrl: 'http://y.gtimg.cn/music/photo_new/T003R720x288M000000rVobR3xG73f.jpg'},
     {picUrl: 'http://y.gtimg.cn/music/photo_new/T003R720x288M000000j6Tax0WLWhD.jpg'},
     {picUrl: 'http://y.gtimg.cn/music/photo_new/T003R720x288M000000a4LLK2VXxvj.jpg'},
-    {picUrl: 'http://y.gtimg.cn/music/photo_new/T003R720x288M000000a4LLK2VXxvj.jpg'},
     ],
     swiperCurrent: 0,
     lists: [
@@ -59,7 +58,7 @@ Page({
       })
   },
   bindhunterViewTap: function() {
-    wx.switchTab({
+    wx.navigateTo({
       url: '../hunter/index'
     })
   },
@@ -75,12 +74,14 @@ Page({
   },
   bindtaskboardViewTap: function() {
     wx.navigateTo({
-      url: '../taskboard/index'
+       url: '../taskboard/index'
     })
   },
   bindmoreViewTap: function() {
     wx.navigateTo({
-      url: '../more/index'
+      //url: '../admin/index'
+      url: '../searcher/index'
+      //url: '../search/index'
     })
   },
   onLoad:function(options){
